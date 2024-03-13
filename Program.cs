@@ -26,31 +26,57 @@ namespace Jeu_de_maths
 
                 e_Operateur operateur =(e_Operateur)random.Next(1, 5);//entre 1 et 2, 1 pour l'addition et 2 pour la multiplication
                 int resultatFinal;
-                if (operateur == e_Operateur.ADDITION)
+
+                switch (operateur)
                 {
-                    Console.WriteLine(minValue + " + " + maxValue + " = ");
-                    resultatFinal = minValue + maxValue;
+                    case e_Operateur.ADDITION:
+                        Console.WriteLine(minValue + " + " + maxValue + " = ");
+                        resultatFinal = minValue + maxValue;
+                        break;
+                    case e_Operateur.MULTIPLICATION:
+                        Console.WriteLine(minValue + " x " + maxValue + " = ");
+                        resultatFinal = minValue * maxValue;
+                        break;
+                    case e_Operateur.SUSTRACTION:
+                        Console.WriteLine(minValue + " - " + maxValue + " = ");
+                        resultatFinal = minValue - maxValue;
+                        break;
+                    case e_Operateur.DIVISION:
+                        Console.WriteLine(minValue + " / " + maxValue + " = ");
+                        resultatFinal = minValue / maxValue;
+                        break;
+                    case default:
+                        Console.WriteLine("Erreur: l'operateur inconnu.");
+                        return false;
                 }
-                else if (operateur == e_Operateur.MULTIPLICATION)
-                {
-                    Console.WriteLine(minValue + " x " + maxValue + " = ");
-                    resultatFinal = minValue * maxValue;
-                }
-                else if (operateur == e_Operateur.SUSTRACTION)
-                {
-                    Console.WriteLine(minValue + " - " + maxValue + " = ");
-                    resultatFinal = minValue - maxValue;
-                }
-                else if (operateur == e_Operateur.DIVISION)
-                {
-                    Console.WriteLine(minValue + " / " + maxValue + " = ");
-                    resultatFinal = minValue / maxValue;
-                }
-                else
-                {
-                    Console.WriteLine("Erreur: l'operateur inconnu.");
-                    return false;
-                }
+
+
+                // ce cas on utilise switch p
+                //if (operateur == e_Operateur.ADDITION)
+                //{
+                //    Console.WriteLine(minValue + " + " + maxValue + " = ");
+                //    resultatFinal = minValue + maxValue;
+                //}
+                //else if (operateur == e_Operateur.MULTIPLICATION)
+                //{
+                //    Console.WriteLine(minValue + " x " + maxValue + " = ");
+                //    resultatFinal = minValue * maxValue;
+                //}
+                //else if (operateur == e_Operateur.SUSTRACTION)
+                //{
+                //    Console.WriteLine(minValue + " - " + maxValue + " = ");
+                //    resultatFinal = minValue - maxValue;
+                //}
+                //else if (operateur == e_Operateur.DIVISION)
+                //{
+                //    Console.WriteLine(minValue + " / " + maxValue + " = ");
+                //    resultatFinal = minValue / maxValue;
+                //}
+                //else
+                //{
+                //    Console.WriteLine("Erreur: l'operateur inconnu.");
+                //    return false;
+                //}
 
                 string reponse = Console.ReadLine();
                 try
