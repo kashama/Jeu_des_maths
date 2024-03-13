@@ -1,0 +1,14 @@
+C:\Users\bijka\OneDrive\Desktop\projet_perso\Jeu_de_maths\bin\Debug\net8.0\Jeu_de_maths.exe
+C:\Users\bijka\OneDrive\Desktop\projet_perso\Jeu_de_maths\bin\Debug\net8.0\Jeu_de_maths.deps.json
+C:\Users\bijka\OneDrive\Desktop\projet_perso\Jeu_de_maths\bin\Debug\net8.0\Jeu_de_maths.runtimeconfig.json
+C:\Users\bijka\OneDrive\Desktop\projet_perso\Jeu_de_maths\bin\Debug\net8.0\Jeu_de_maths.dll
+C:\Users\bijka\OneDrive\Desktop\projet_perso\Jeu_de_maths\bin\Debug\net8.0\Jeu_de_maths.pdb
+C:\Users\bijka\OneDrive\Desktop\projet_perso\Jeu_de_maths\obj\Debug\net8.0\Jeu_de_maths.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bijka\OneDrive\Desktop\projet_perso\Jeu_de_maths\obj\Debug\net8.0\Jeu_de_maths.AssemblyInfoInputs.cache
+C:\Users\bijka\OneDrive\Desktop\projet_perso\Jeu_de_maths\obj\Debug\net8.0\Jeu_de_maths.AssemblyInfo.cs
+C:\Users\bijka\OneDrive\Desktop\projet_perso\Jeu_de_maths\obj\Debug\net8.0\Jeu_de_maths.csproj.CoreCompileInputs.cache
+C:\Users\bijka\OneDrive\Desktop\projet_perso\Jeu_de_maths\obj\Debug\net8.0\Jeu_de_maths.dll
+C:\Users\bijka\OneDrive\Desktop\projet_perso\Jeu_de_maths\obj\Debug\net8.0\refint\Jeu_de_maths.dll
+C:\Users\bijka\OneDrive\Desktop\projet_perso\Jeu_de_maths\obj\Debug\net8.0\Jeu_de_maths.pdb
+C:\Users\bijka\OneDrive\Desktop\projet_perso\Jeu_de_maths\obj\Debug\net8.0\Jeu_de_maths.genruntimeconfig.cache
+C:\Users\bijka\OneDrive\Desktop\projet_perso\Jeu_de_maths\obj\Debug\net8.0\ref\Jeu_de_maths.dll
